@@ -10,26 +10,6 @@ export default function Navbar() {
   };
 
   return (
-    // <nav className="NavbarItems">
-    //   <div className="Navbar-logo">
-    //     <img src={logo} alt="logo" />
-    //   </div>
-
-    //   <div className="menu-icon" onClick={handleClick}>
-    //     <i className={clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
-    //   </div>
-    //   <ul className={clicked ? 'nav-menu active' : 'nav-menu'}>
-    //     {MenuItems.map((items, index) => {
-    //       return (
-    //         <li key={index}>
-    //           <div className={items.cName} to={items.url}>
-    //             {items.title}
-    //           </div>
-    //         </li>
-    //       );
-    //     })}
-    //   </ul>
-    // </nav>
 
     <nav className="NavbarItems">
     <div className="Navbar-logo">
