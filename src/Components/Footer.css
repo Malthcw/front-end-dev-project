@@ -1,0 +1,160 @@
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+  background: #6B3CC9;
+  color: #fff;
+  position: relative; 
+}
+
+.left {
+  flex: 2;
+  padding: 2rem;
+  margin-right:20rem;
+}
+
+
+.middle,
+.right {
+  flex: 1;
+}
+
+.middle div,
+.right div {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.middle h4,
+.right h4 {
+  font-size: 1.5rem;
+  padding: 0;
+}
+
+.middle h1,
+.right h1,
+.middle h4,
+.right h4,
+.middle,
+.right {
+  margin-bottom: 1rem;
+  font-family: 'comfortaa', sans-serif;
+}
+
+.middle li,
+.right li {
+  list-style: none;
+  color: #fafafa;
+  padding-bottom: 0.4rem;
+  font-size: 1.1rem;
+}
+
+
+.middle,
+.right {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer hr {
+  position: absolute;
+  width: 50%; 
+  border: none;
+  border-top: 1px solid #fff;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 2rem;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.bottom p {
+  margin: 0 10px 10px ; 
+}
+
+.bottom hr {
+  border: none;
+  border-left: 1px solid #fff;
+  height: 20px; 
+  margin: 0 -20px 10px; 
+  width: 0;
+  bottom: 0;
+}
+
+
+@media screen and (max-width:1200px) {
+  .footer{
+        width: auto;
+    }
+
+    .left{
+      margin-right: 0;
+    }
+   
+}
+
+@media screen and (max-width:768px) {
+  .footer {
+    display: block;
+    padding: 2rem 2rem;
+  }
+
+  .left {
+    width: 60%;
+    margin-right: 0;
+    padding: 0;
+    margin-bottom: 1rem;
+  }
+
+  .middle,
+  .right {
+    flex: 1;
+    display: inline-block; 
+    margin-right: 5rem; 
+  }
+
+  .middle div,
+  .right div {
+    flex-direction: column;
+  }
+}
+
+
+
+@media screen and (max-width: 375px) {
+  .footer {
+    flex-direction: column;
+    padding: 2rem 2rem;
+  }
+
+   img{
+    width: 240px;
+    height: 25px;
+  }
+
+  .left {
+    margin-right: 0;
+    padding: 0;
+  }
+
+  .left p{
+    text-align: left;
+  }
+
+  .middle li,
+.right li {
+  line-height: 20px;
+}
+
+}

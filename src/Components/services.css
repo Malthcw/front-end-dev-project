@@ -1,0 +1,133 @@
+.services{
+    margin: 4rem 6rem;
+}
+
+.service-des{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3rem;
+}
+
+.service-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3rem;
+}
+
+.des-text{
+    width: 50%;
+    text-align: start;
+    font-size: 1rem;
+    color: #6B3CC9;
+    text-decoration: none;
+
+}
+
+.des-text p{
+    color: #000000;
+    font-size:14px;
+    font-weight: 400;
+}  
+
+.des-text h2{
+    text-decoration: none;
+}
+
+.des-text button{
+    background: #F28D35;
+    color: #fff;
+}
+
+.image{
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4rem;
+}
+
+.image img{
+    width: 414px;
+    height: 416px;
+    align-items: center;
+    
+}
+
+
+@media screen and (max-width:1200px) {
+    .services{
+          width: auto;
+      }
+
+      .image{
+        padding: 0;
+      }
+}
+
+@media screen and (max-width:768px) {
+    .services{
+        padding: 20rem 0 0 0;
+    }
+    .service-des{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 3rem;
+        width: 100%;
+    }
+    
+    .service-reverse{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 1rem 0 0 0;
+    }
+    .image{
+        padding: 0;
+    }
+    .image img{
+        width: 275px;
+        height: 275px;
+    }
+    .des-text{
+        text-align: start;
+        width: 65%;
+    }
+}
+
+
+
+@media screen and (max-width:375px) {
+    .services{
+        display: contents;
+        margin: 4rem 6rem;
+    }
+
+    .service-des{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 5rem 0;
+    }
+
+    .service-reverse{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 5rem 0;
+    }
+    .image img{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    .image{
+        padding: 0;
+    }
+    .des-text{
+        width: 80%;
+        text-align: center;
+    }
+    
+}
